@@ -1,1 +1,63 @@
+// ...existing code...
 .DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+.vite/
+.turbo/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+local.settings.json
+*.pem
+*.key
+*.crt
+
+# IDEs / OS
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Logs / runtime
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Python (if используется)
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+
+# Coverage / test output
+coverage/
+coverage-final.json
+.nyc_output/
+
+# Packaging / artifacts
+*.tgz
+*.zip
+
+# Databases / local state
+*.sqlite3
+*.db
